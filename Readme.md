@@ -10,3 +10,10 @@ ls
 
 nano nuke.py
 
+------------------------
+
+Edit These
+
+token = "Your Token"
+
+client = commands.Bot(command_prefix="Enter Your Prefix")
