@@ -5,13 +5,13 @@ from discord import Permissions
 from colorama import Fore, Style
 import asyncio
 
-token = "OTAzNTU2MjQ0OTQ4NzkxMzQ3.YXusVA.Wq-74t1zXFI0HrRwKhPce7-u89Y"
+token = "Your Token"
 
 
-SPAM_CHANNEL =  ["got raid by franz"]
+SPAM_CHANNEL =  ["Get raided by Franz"]
 SPAM_MESSAGE = ["@everyone yahaha"]
 
-client = commands.Bot(command_prefix="!")
+client = commands.Bot(command_prefix="Enter Your Prefix")
 
 
 @client.event
@@ -27,7 +27,7 @@ async def on_ready():
 
 
  ''')
-   await client.change_presence(activity=discord.Game(name="XNXX.COM"))
+   await client.change_presence(activity=discord.Game(name="Created By Franz"))
 
 
 @client.command()
@@ -35,7 +35,7 @@ async def on_ready():
 async def stop (ctx):
     await ctx.bot.logout()
     print (Fore.GREEN + f"{client.user.name} has logged out successfully." + Fore.RESET)
-    await ctx.send("Kontol Wkwkwk")
+    await ctx.send("LOL")
 
 @client.command()
 async def nuke (ctx):
